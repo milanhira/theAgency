@@ -1,0 +1,8 @@
+.theUnderline {
+    width: 300px;
+    height: 8px;
+    background: yellow;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}

@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Video Editing Agency</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+      <a class="navbar-brand" href="#">Video Editing Agency</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#services">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#portfolio">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Services Section -->
+  <section id="services" class="py-5">
+    <div class="container text-left">
+      <h2 class="mb-4 text-center ">Our Services</h2>
+      <hr class="theUnderline">
+      <div class="row">
+        <div class="col-md-4">
+            <h3>Video Editing</h3>
+            <p>Video editing is the process of manipulating and arranging video footage to create a cohesive and compelling narrative. It involves tasks such as trimming clips, adjusting colors, adding transitions, and integrating audio elements to enhance the overall visual storytelling.</p>
+        </div>
+        <div class="col-md-4">
+            <h3>Graphic Design</h3>
+            <p>Graphic design is the art of visually communicating ideas, messages, and concepts through the use of typography, imagery, color, and layout. It encompasses a diverse range of mediums, including print, digital, and multimedia platforms, making it a versatile and dynamic field.</p>
+        </div>
+        <div class="col-md-4">
+            <h3>Thumbnail design</h3>
+            <p>
+                Thumbnail design is a critical aspect of content creation, serving as the first point of contact for potential viewers. A successful thumbnail communicates the essence of the content concisely and persuasively, utilizing eye-catching visuals, compelling text, and branding elements.</p>
+        </div>
+      </div>
+      
+    </div>
+  </section>
+
+  <!-- Portfolio Section -->
+  <section id="portfolio" class="bg-light py-5">
+    <div class="container text-center">
+      <h2 class="mb-4">Our Portfolio</h2>
+      <hr class="theUnderline">
+      <!-- Add your portfolio items here -->
+    </div>
+    <div class="container">
+        <h3>Video Editing Portfolio</h3>
+
+        <div class="row mt-5 mb-5">
+            <h5 class="text-center mb-4 w-100"><span style="color: rgb(4, 226, 255); font-size: 25px;">B</span>asic Video Editing Demo</h5>
+
+                    <div class="col-md-4">
+                                <video width="300" height="250" controls muted autoplay>
+                                    <source src="./1. VideoAsset/myWorkOut.mp4" type="video/mp4">
+                                </video>
+                                <p>Basic gim video tremcating</p>
+                    </div>
+                    <div class="col-md-4">
+                        <video width="300" height="250" controls muted autoplay>
+                            <source src="./1. VideoAsset/The Most Useful Transitions for you.mp4" type="video/mp4">
+                        </video>
+                        <p>Basic nature transition</p>
+                    </div>
+                    <div class="col-md-4">
+                        <video width="300" height="250" controls muted autoplay>
+                            <source src="./1. VideoAsset/Video slideshow.mp4" type="video/mp4">
+                        </video>
+                        <p>Basic slideshow</p>
+                    </div>
+        </div>
+
+        <div class="row mt-5 mb-5 ">
+            <h5><span style="color: rgb(0, 184, 159); font-size: 25px;">I</span>ntermediate Video Editing Demo</h5>
+        </div>
+
+        <div class="row mt-5 mb-5">
+            <h5><span style="color: rgb(0, 136, 113); font-size: 25px;">A</span>dvanced Video Editing Demo</h5>
+            <div class="col-md-4">
+            </div>
+        </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 mx-auto">
+          <h2 class="text-center mb-4">Contact Us</h2>
+          <form id="contactForm">
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Name" required>
+            </div>
+            <div class="form-group">
+              <input type="email" class="form-control" placeholder="Email" required>
+            </div>
+            <div class="form-group">
+              <textarea class="form-control" rows="5" placeholder="Message" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-block">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white py-4">
+    <div class="container text-center">
+      <p>&copy; 2024 Video Editing Agency. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
